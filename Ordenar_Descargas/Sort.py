@@ -21,7 +21,7 @@ imagesext=[".jpg",".png",".gif",".jpeg",".ico"]
 documentsext=[".docx",".pdf",".pptx",".txt",".xlsx",".doc",".ppsx"]
 binariesext=[".exe",".msi"]
 rarext=[".rar",".zip"]
-scriptsext=[".py",".sql",".html",".css","j.s"]
+scriptsext=[".py",".sql",".html",".css",".js"]
 regeditext=[".reg"]
 
 dirlist=os.listdir(src)
