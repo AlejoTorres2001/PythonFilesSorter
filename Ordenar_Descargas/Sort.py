@@ -87,11 +87,12 @@ for files in filteredlist:
                 os.path.join(src,f'{filename}{file_ext}'),
                 os.path.join(src,'Videos',f'{filename}{file_ext}')
             )
+            print("hola")
         elif file_ext in (regeditext):
             if not regedit.exists():
                 regedit.mkdir()
                 
-            #comentario
+            
             shutil.move(
                 os.path.join(src,f'{filename}{file_ext}'),
                 os.path.join(src,'Regedit',f'{filename}{file_ext}'))
